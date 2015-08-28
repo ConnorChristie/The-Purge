@@ -1,0 +1,17 @@
+name: The Purge
+main: me.chiller.purge.PurgeMain
+version: 1.0
+commands:
+    purge:
+        description: The Purge command
+        usage: /purge <command> [args]
+permissions:
+    purge.setup:
+        description: Allows a player to setup The Purge game
+        default: op
+    purge.control:
+        description: Allows you to control the game
+        default: op
+    purge.give:
+        description: Allows you to give a player an item
+        default: op
